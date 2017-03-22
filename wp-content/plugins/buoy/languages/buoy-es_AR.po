@@ -1,0 +1,959 @@
+# Copyright (C) 2016 Buoy (a Better Angels crisis response system)
+# This file is distributed under the same license as the Buoy (a Better Angels crisis response system) package.
+# Translators:
+# Ana Kyburg <agkyburg@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Better Angels\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/buoy\n"
+"POT-Creation-Date: 2016-08-13 03:53:29+00:00\n"
+"PO-Revision-Date: 2016-08-13 10:01+0000\n"
+"Last-Translator: Meitar\n"
+"Language-Team: Spanish (Argentina) (http://www.transifex.com/cyberbusking/better-angels/language/es_AR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_AR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: buoy.php:192
+msgid "Buoy requires at least PHP version %1$s. You have PHP version %2$s."
+msgstr "Buoy require al menos la versión PHP %1$s. Usted posee la versión PHP %2$s."
+
+#: buoy.php:199
+msgid ""
+"Buoy requires at least WordPress version %1$s. You have WordPress version "
+"%2$s."
+msgstr "Buoy requiere al menos la versión WordPress %1$s. Usted posee la versión WordPress %2$s."
+
+#: buoy.php:263
+msgid ""
+"Buoy requires the REST API plugin, but it cannot be installed. Please "
+"install it manually or deactivate Buoy."
+msgstr ""
+
+#: buoy.php:264
+msgid "Click here to install the REST API plugin."
+msgstr ""
+
+#: buoy.php:425
+msgid "Buoy Dashboard"
+msgstr "Panel de Control de Buoy"
+
+#: includes/class-buoy-alert.php:138
+msgid "No alert with lookup \"%s\" found."
+msgstr "Ninguna alerta fue encontrada para la búsqueda \"%s\" ."
+
+#: includes/class-buoy-alert.php:434
+msgid ""
+"WARNING! Your system does not have %s available to generate alert hashes."
+msgstr "ATENCION! Su sistema no posee %s necesarios para generar alertas hash."
+
+#: includes/class-buoy-alert.php:449
+msgid "Incidents"
+msgstr "Incidentes"
+
+#: includes/class-buoy-alert.php:450
+msgid "A call for help."
+msgstr "Un llamado de auxilio."
+
+#: includes/class-buoy-alert.php:630
+msgid "Alert"
+msgstr "Alerta"
+
+#: includes/class-buoy-alert.php:672
+msgid "Active alerts"
+msgstr "Alertas activas"
+
+#: includes/class-buoy-alert.php:695
+msgid "My alert on %2$s"
+msgstr "Mi alerta en %2$s"
+
+#: includes/class-buoy-alert.php:710
+msgid "Alert issued by %1$s on %2$s"
+msgstr "Alerta emitida por %1$s en %2$s"
+
+#: includes/class-buoy-alert.php:724
+msgid "Cancel scheduled alert for %1$s"
+msgstr "Cancelar alerta programada para %1$s"
+
+#: includes/class-buoy-alert.php:726
+msgid "Cancel this alert"
+msgstr "Cancelar esta alerta"
+
+#: includes/class-buoy-alert.php:739
+msgid "New alert by %1$s on %2$s"
+msgstr ""
+
+#: includes/class-buoy-alert.php:741
+msgid "View alert"
+msgstr ""
+
+#: includes/class-buoy-alert.php:764 includes/class-buoy-alert.php:765
+msgid "Activate Alert"
+msgstr "Activar Alerta"
+
+#: includes/class-buoy-alert.php:775 includes/class-buoy-alert.php:776
+msgid "Respond to Alert"
+msgstr "Responder a la Alerta"
+
+#: includes/class-buoy-alert.php:784 includes/class-buoy-alert.php:785
+msgid "Incident Chat"
+msgstr "Chat de Incidente"
+
+#: includes/class-buoy-alert.php:832 includes/class-buoy-alert.php:836
+#: includes/class-buoy-alert.php:859 includes/class-buoy-alert.php:864
+#: includes/class-buoy-settings.php:558 includes/class-buoy-settings.php:570
+#: pages/post-comments-chat.php:24 pages/post-comments-chat.php:27
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Usted no tiene permiso suficiente para acceder a esta página."
+
+#: includes/class-buoy-alert.php:1198
+msgid "Install Buoy"
+msgstr "Instalar Buoy"
+
+#: includes/class-buoy-alert.php:1199
+msgid ""
+"Install Buoy by tapping this button, then choosing \"Add to home screen\" "
+"from the menu."
+msgstr "Instale Buoy tocando este botón, luego seleccione \"Agregar a la pantalla de inicio\" del menú."
+
+#: includes/class-buoy-alert.php:1200
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: includes/class-buoy-alert.php:1201
+msgid "Incident Map"
+msgstr "Mapa de Incidentes"
+
+#: includes/class-buoy-alert.php:1202
+msgid "Location of emergency alert signal"
+msgstr "Ubicación de la señal de alerta de emergencia"
+
+#: includes/class-buoy-alert.php:1203
+msgid "My location"
+msgstr "Mi ubicación"
+
+#: includes/class-buoy-alert.php:1204
+msgid "Directions to here"
+msgstr "Direcciones hasta aquí"
+
+#: includes/class-buoy-alert.php:1205
+msgid "Call"
+msgstr "Llamada"
+
+#: includes/class-buoy-alert.php:1206
+msgid "Responding to alert"
+msgstr "Respondiendo a la alerta"
+
+#: includes/class-buoy-alert.php:1207 pages/activate-alert.php:67
+msgid "Schedule alert"
+msgstr "Agendar alerta"
+
+#: includes/class-buoy-alert.php:1208
+msgid "Scheduling alert"
+msgstr "Agendando alerta"
+
+#: includes/class-buoy-alert.php:1277
+msgid "Buoy could not understand the date and time you entered."
+msgstr "Buoy no pudo entender la fecha y hora que usted ingresó."
+
+#: includes/class-buoy-alert.php:1302
+msgid "Your timed alert has been scheduled. Schedule another?"
+msgstr "Su alerta ha sido agendada. ¿Desea agendar otra?"
+
+#: includes/class-buoy-alert.php:1567
+msgctxt "Example: uploaded 5 mins ago"
+msgid "uploaded %1$s ago"
+msgstr "Cargado hace %1$s"
+
+#: includes/class-buoy-alert.php:1572
+msgctxt "a byline, like \"written by Bob\""
+msgid "by %1$s"
+msgstr "por %1$s"
+
+#: includes/class-buoy-chat-room.php:164
+msgid "ago"
+msgstr "hace"
+
+#: includes/class-buoy-chat-room.php:258
+msgid "%1$s image from %2$s"
+msgstr "%1$s imagen de %2$s"
+
+#: includes/class-buoy-notification.php:92
+#: includes/class-buoy-notification.php:122
+msgid "%1$s wants you to join %2$s crisis response team."
+msgstr "%1$s quiere que usted se una %2$s equipo de respuesta a crisis"
+
+#: includes/class-buoy-notification.php:116
+msgid ""
+"%1$s invites you to join the Buoy emergency response alternative on %2$s!"
+msgstr "%1$s lo invita a unirse a la alternativa de respuesta a emergencia de Buoy en %2$s!"
+
+#: includes/class-buoy-notification.php:119
+msgid ""
+"Buoy is a community-based crisis response system. It is designed to connect "
+"people in need with trusted friends, family, and other nearby allies who can"
+" help. We believe that in situations where traditional emergency services "
+"are not available, reliable, trustworthy, or sufficient, communities can "
+"come together to aid each other in times of need."
+msgstr "Buoy es un sistema comunal que brinda respuestas a crisis. Se encuentra diseñado para conectar personas necesitadas con amigos confiables, familia y otros aliados cercanos que puedan brindar ayuda. Creemos que en situaciones en las cuales servicios de emergencia tradicionales no se encuentran disponibles, no son confiables o son insuficientes, las comunidades pueden unirse para ayudar a sus miembros en momentos de necesidad."
+
+#: includes/class-buoy-notification.php:126
+msgid "To join, sign up for an account here:"
+msgstr "Para unirse, suscríbase a una cuenta aquí:"
+
+#: includes/class-buoy-settings.php:270
+msgid "Failed to delete attachment post %1$s (child of %2$s) during %3$s"
+msgstr "Error al eliminar datos adjuntos %1$s (hijo de %2$s) durante %3$s"
+
+#: includes/class-buoy-settings.php:281
+msgid "Failed to delete post with ID %1$s during %2$s"
+msgstr "Error al eliminar publicación ID %1$s durante %2$s"
+
+#: includes/class-buoy-settings.php:428
+msgid "Error installing system cronjob for timed alerts."
+msgstr "Error al instalar el sistema cronjob para alertas programadas."
+
+#: includes/class-buoy-settings.php:439
+msgid "Error removing system crontab jobs for timed alerts."
+msgstr "Error al remover el sistema crontab para alertas programadas."
+
+#: includes/class-buoy-settings.php:504 pages/options.php:2
+msgid "Buoy Settings"
+msgstr "Ajustes de Buoy"
+
+#: includes/class-buoy-settings.php:505 pages/manifest.json.php:27
+msgid "Buoy"
+msgstr "Buoy"
+
+#: includes/class-buoy-settings.php:513 includes/class-buoy-settings.php:514
+#: pages/incident-chat.php:100 pages/options.php:10
+msgid "Safety information"
+msgstr "Información de seguridad"
+
+#: includes/class-buoy-team-membership-list-table.php:94
+msgid "Team Name"
+msgstr "Nombre del Equipo"
+
+#: includes/class-buoy-team-membership-list-table.php:95
+msgid "Alerter"
+msgstr "Vigilante"
+
+#: includes/class-buoy-team-membership-list-table.php:96
+#: includes/class-buoy-team-membership-list-table.php:109
+msgid "Confirmed"
+msgstr "Confirmado"
+
+#: includes/class-buoy-team-membership-list-table.php:109
+msgid "Pending"
+msgstr "Pendiente"
+
+#: includes/class-buoy-team-membership-list-table.php:127
+#: includes/class-buoy-team-membership-list-table.php:143
+msgid "Leave Team"
+msgstr "Abandonar Equipo"
+
+#: includes/class-buoy-team-membership-list-table.php:127
+#: includes/class-buoy-team-membership-list-table.php:142
+msgid "Join Team"
+msgstr "Unirse a Equipo"
+
+#: includes/class-buoy-team-membership-list-table.php:132
+#: includes/class-buoy-user.php:374
+msgid "Private"
+msgstr "Privado"
+
+#: includes/class-buoy-team-membership-list-table.php:137
+msgid "You are not on any teams."
+msgstr "Usted no se encuentra en ningún equipo."
+
+#: includes/class-buoy-team.php:91
+msgid "Invalid state for membership."
+msgstr "Estado inválido para membresía."
+
+#: includes/class-buoy-team.php:357
+msgid "Crisis Response Teams"
+msgstr "Equipos de Respuesta a Crisis"
+
+#: includes/class-buoy-team.php:358
+msgid "Crisis Response Team"
+msgstr "Equipo de Respuesta a Crisis"
+
+#: includes/class-buoy-team.php:359
+msgid "Add New Team"
+msgstr "Agregar Nuevo Equipo"
+
+#: includes/class-buoy-team.php:360
+msgid "Edit Team"
+msgstr "Editar Equipo"
+
+#: includes/class-buoy-team.php:361
+msgid "New Team"
+msgstr "Nuevo Equipo"
+
+#: includes/class-buoy-team.php:362
+msgid "View Team"
+msgstr "Ver Equipo"
+
+#: includes/class-buoy-team.php:363
+msgid "Search Teams"
+msgstr "Buscar Equipos"
+
+#: includes/class-buoy-team.php:364
+msgid "No teams found"
+msgstr "No se han encontrado equipos"
+
+#: includes/class-buoy-team.php:365
+msgid "No teams found in Trash"
+msgstr "No se han encontrado equipos en la Papelera"
+
+#: includes/class-buoy-team.php:366
+msgid "All Teams"
+msgstr "Todos los Equipos"
+
+#: includes/class-buoy-team.php:367
+msgid "My Teams"
+msgstr "Mis equipos"
+
+#: includes/class-buoy-team.php:369
+msgid "Groups of crisis responders"
+msgstr "Grupos de respondedores de crisis"
+
+#: includes/class-buoy-team.php:434
+msgid "Add new member"
+msgstr ""
+
+#: includes/class-buoy-team.php:444
+msgid "Current team members %s"
+msgstr "Miembros actuales del equipo %s"
+
+#: includes/class-buoy-team.php:456
+msgid "Default Team? (%s)"
+msgstr "¿Equipo Predeterminado? (%s)"
+
+#: includes/class-buoy-team.php:457 includes/class-buoy-team.php:1027
+msgid "Yes"
+msgstr "Si"
+
+#: includes/class-buoy-team.php:457
+msgid "No"
+msgstr "No"
+
+#: includes/class-buoy-team.php:467
+msgid "SMS/txt Messages"
+msgstr ""
+
+#: includes/class-buoy-team.php:507
+msgid "Include as default team?"
+msgstr "¿Incluir como equipo predeterminado?"
+
+#: includes/class-buoy-team.php:510
+msgid "This team is one of your default teams."
+msgstr "Este equipo es uno de sus equipos predeterminados."
+
+#: includes/class-buoy-team.php:512
+msgid "Uncheck the box to remove this team from your list of default teams."
+msgstr "Deseleccione la casilla para eliminar este equipo de su lista de equipos predeterminados."
+
+#: includes/class-buoy-team.php:514
+msgid "This team is not one of your default teams."
+msgstr "Este equipo no es uno de sus equipos predeterminados"
+
+#: includes/class-buoy-team.php:516
+msgid "Check the box to add this team to your list of default teams."
+msgstr "Seleccione la casilla para agregar este equipo a su lista de equipos predeterminados."
+
+#: includes/class-buoy-team.php:534
+msgid "You must set a phone number in your profile to use txt messages."
+msgstr ""
+
+#: includes/class-buoy-team.php:549 includes/class-buoy-team.php:869
+#: includes/class-buoy-team.php:870
+msgid "Team membership"
+msgstr "Membresía a Equipo"
+
+#: includes/class-buoy-team.php:637
+msgid "Default team updated."
+msgstr "Equipo predeterminado actualizado."
+
+#: includes/class-buoy-team.php:918
+msgid "Enter team name here"
+msgstr "Ingresar nombre del equipo aquí."
+
+#: includes/class-buoy-team.php:934
+msgid "Members"
+msgstr "Miembros"
+
+#: includes/class-buoy-team.php:935
+msgid "Confirmed Members"
+msgstr "Miembros Confirmados"
+
+#: includes/class-buoy-team.php:936
+msgid "Default Team?"
+msgstr "¿Equipo predeterminado?"
+
+#: includes/class-buoy-team.php:1085
+msgid "Add to defaults"
+msgstr "Agregar a predeterminados"
+
+#: includes/class-buoy-team.php:1088
+msgid "Remove from defaults"
+msgstr "Quitar de predeterminados"
+
+#: includes/class-buoy-team.php:1129
+msgid "Friends"
+msgstr "Amigos"
+
+#: includes/class-buoy-team.php:1132
+msgid "Family"
+msgstr "Familia"
+
+#: includes/class-buoy-team.php:1135
+msgid "Neighbours"
+msgstr "Vecinos"
+
+#: includes/class-buoy-user.php:59
+msgid "Invalid user ID: %s"
+msgstr "ID de usuario inválido: %s"
+
+#: includes/class-buoy-user.php:169
+msgid "their"
+msgstr "su"
+
+#: includes/class-buoy-user.php:182
+msgid "Please help!"
+msgstr "¡Ayuda por favor!"
+
+#: includes/class-buoy-user.php:293
+msgid "You no longer have crisis responders."
+msgstr "Usted ya no tiene respondedores de crisis."
+
+#: includes/class-buoy-user.php:294
+msgid ""
+"Either you have removed the last of your Buoy crisis response team members, "
+"or they have all left your teams. You will not be able to send a Buoy alert "
+"to anyone until you add more people to your team(s)."
+msgstr "Usted ha eliminado al último de los miembros de su equipo de respuesta a crisis de Buoy o los miembros han abandonado sus equipos. Usted podrá enviar alertas de Buoy cuando agregue más personas a su(s) equipo(s)."
+
+#: includes/class-buoy-user.php:347
+msgid "Choose teams"
+msgstr "Elegir equipos"
+
+#: includes/class-buoy-user.php:351
+msgid "Your teams with responders"
+msgstr "Sus equipos con respondedores"
+
+#: includes/class-buoy-user.php:355
+msgid "Team name"
+msgstr "Nombre del equipo"
+
+#: includes/class-buoy-user.php:356
+msgid "Responders"
+msgstr "Respondedores"
+
+#: pages/activate-alert.php:12
+msgid "Schedule timed alert"
+msgstr "Agendar alerta programada"
+
+#: pages/activate-alert.php:16
+msgid "Send emergency message"
+msgstr "Enviar mensaje de emergencia"
+
+#: pages/activate-alert.php:20
+msgid "Activate alert"
+msgstr "Activar alerta"
+
+#: pages/activate-alert.php:31 pages/activate-alert.php:49
+#: pages/incident-chat.php:99 pages/incident-chat.php:106
+msgid "Close"
+msgstr "Cerrar"
+
+#: pages/activate-alert.php:32
+msgid "Message to my team"
+msgstr "Enviar mensaje a mi equipo"
+
+#: pages/activate-alert.php:40 pages/chat-room-wordpress-comments.php:23
+msgid "Send"
+msgstr "Enviar"
+
+#: pages/activate-alert.php:50
+msgid "Schedule a timed alert"
+msgstr "Agendar una alerta programada"
+
+#: pages/activate-alert.php:55
+msgid "Send alert at"
+msgstr "Enviar alerta a"
+
+#: pages/activate-alert.php:57
+msgid ""
+"Enter a date and time at which your alert will be sent. You can either "
+"select from the pop-up options after clicking in the field, or type a "
+"specific date and time in the \"YYYY/MM/DD HH:mm\" format."
+msgstr "Ingrese una fecha y hora en la cual su alerta será enviada. Usted puede seleccionar seleccionar entre las opciones pop-up luego de clickear en el campo, o tipear una fecha y hora específicas en el formato \"YYYY/MM/DD HH:mm\"."
+
+#: pages/activate-alert.php:60 pages/profile.php:53
+msgid "Crisis message"
+msgstr "Mensaje de crisis"
+
+#: pages/activate-alert.php:62
+msgid ""
+"Briefly provide an explanation of where you expect to be and what you think "
+"you will need from your response team. This message will be sent to your "
+"response team at the time you specified unless you cancel the alert."
+msgstr "Brevemente explique dónde espera estar y qué piensa que usted necesitará de su equipo de respuesta. Este mensaje será enviado a su equipo de respuesta en el momento que Usted especifique a menos que cancele la alerta."
+
+#: pages/activate-alert.php:76
+msgid "Detecting your location and sending alert&hellip;"
+msgstr "Detectando su ubicación y enviando alerta de auxilio;"
+
+#: pages/activate-alert.php:77
+msgid "Loading&hellip;"
+msgstr "Cargando auxilio;"
+
+#: pages/add-team-member-meta-box.php:5
+msgid "Responder username or email"
+msgstr ""
+
+#: pages/add-team-member-meta-box.php:12
+msgid "email%s"
+msgstr ""
+
+#: pages/add-team-member-meta-box.php:32
+msgid ""
+"Invite someone you trust to join your team by entering their username or "
+"email address here. If they do not already have an account on this Buoy, an "
+"invitation will be emailed to them."
+msgstr ""
+
+#: pages/chat-room-tlk-io.php:4
+msgid ""
+"To access the incident chat room, JavaScript must be enabled in your "
+"browser."
+msgstr "Para acceder al chat room del incidente, JavaScript debe estar habilitado en su browser."
+
+#: pages/chat-room-wordpress-comments.php:9
+msgid ""
+"To access the incident chat room, inline frames must be supported by your "
+"browser."
+msgstr "Para acceder al chat room del incidente, los marcos incorporados deben estar habilitados por su browser."
+
+#: pages/current-team-meta-box.php:5
+msgid "Remove team members"
+msgstr "Remover miembros del equipo"
+
+#: pages/current-team-meta-box.php:32
+msgid "confirmed"
+msgstr "confirmado"
+
+#: pages/current-team-meta-box.php:32
+msgid "pending"
+msgstr "pendiente"
+
+#: pages/dashboard-widget-check-plugins.php:26
+msgid "Missing supplemental plugins:"
+msgstr "Faltan plugins suplementarios;"
+
+#: pages/dashboard-widget-check-plugins.php:37
+msgid "These recommended plugins were not found. Consider installing them."
+msgstr "Los plugins recomendados no fueron encontrados. Considere instalarlos."
+
+#: pages/dashboard-widget-check-plugins.php:41
+msgid "Disabled supplemental plugins:"
+msgstr "Plugins suplementarios deshabilitados;"
+
+#: pages/dashboard-widget-check-plugins.php:49
+msgid ""
+"These recommended plugins are installed but disabled. Consider activating "
+"them."
+msgstr "Los plugins recomendados se encuentran instalados pero deshabilitados. Considere activarlos."
+
+#: pages/dashboard-widget-check-plugins.php:53
+msgid "Active supplemental plugins:"
+msgstr "Plugins suplementarios activos;"
+
+#: pages/dashboard-widget-check-plugins.php:65
+msgid ""
+"Supplemental plugins are recommended components that enhance the usability "
+"and functionality of your Buoy."
+msgstr "Los plugins suplementarios son componentes recomendados que mejoran el uso y funcionalidad de su Buoy."
+
+#: pages/dashboard-widget-check-responders.php:25
+msgid "You have no crisis responders."
+msgstr "Usted no tiene respondedores de crisis."
+
+#: pages/dashboard-widget-check-responders.php:27
+msgid "Add people you trust to %1$syour crisis response teams%2$s."
+msgstr "Agrega personas en las que Usted confía a %1$s sus equipos de respuesta a crisis %2$s."
+
+#: pages/dashboard-widget-check-responders.php:35
+msgid "You have responders on this Buoy."
+msgstr "Usted tiene respondedores de crisis."
+
+#: pages/incident-chat.php:8
+msgid "Incident toolbar"
+msgstr "Bara de herramientas del Incidente"
+
+#: pages/incident-chat.php:12
+msgid "Map"
+msgstr ""
+
+#: pages/incident-chat.php:16
+msgid "Toggle map actions"
+msgstr "Alternar acciones de mapa"
+
+#: pages/incident-chat.php:19
+msgid "Zoom to fit"
+msgstr "Zoom para caber"
+
+#: pages/incident-chat.php:21
+msgid "Go to my location"
+msgstr "Ir a mi ubicación"
+
+#: pages/incident-chat.php:27
+msgid "Record"
+msgstr ""
+
+#: pages/incident-chat.php:33
+msgid "Toggle incident media"
+msgstr "Alternar multimedia de incidente"
+
+#: pages/incident-chat.php:41
+msgid "Videochat"
+msgstr ""
+
+#: pages/incident-chat.php:51
+msgid "Emergency alert signal could not be pinpointed on a map."
+msgstr "Señal de alerta de emergencia no pudo ser localizada en el mapa."
+
+#: pages/incident-chat.php:66 pages/review-alert.php:26
+msgid ""
+"To view a map of the crisis area, JavaScript must be enabled in your "
+"browser."
+msgstr "Para visualizar un mapa del área de crisis, JavaScript debe estar habilitado en su navegador."
+
+#: pages/manifest.json.php:26
+msgid "Buoy: Activate Alert"
+msgstr "Buoy: Activar Alerta"
+
+#: pages/meta-box-sms-messages.php:8
+msgid "Enable team SMS/txt chat"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:12
+msgid ""
+"Enabling SMS/txt chat for a team creates an always-on channel for confirmed "
+"team members to broadcast a txt messages to everyone else on this team by "
+"sending a single txt message to a specially-configured email address. TXT "
+"messages sent to the email address configured below will be automatically "
+"forwarded to every confirmed team member."
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:15
+msgid "SMS &larr;&rarr; Email bridge configuration"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:21
+msgid "Email address"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:22 pages/meta-box-sms-messages.php:30
+msgid "DO NOT USE YOUR PERSONAL ADDRESS"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:34
+msgid "Enter the email address used to relay inbound messages."
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:41
+msgid "Username"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:53
+msgid "Enter the email account username used to retrieve emails."
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:60
+msgid "Password"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:72
+msgid "Enter the password for the email account."
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:79
+msgid "Incoming (IMAP) Mail Server"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:91
+msgid "Enter the email server domain name or IP address."
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:98
+msgid "IMAP Port Number"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:110
+msgid ""
+"Enter the port number on which the email server is listening for "
+"connections."
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:117
+msgid "Connection Security (SSL/TLS)"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:125
+msgid "Force TLSv1 (recommended)"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:126
+msgid "Opportunistic TLS"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:127
+msgid "Auto-detect SSL version (for old servers)"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:128
+msgid "Force SSL version 3"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:129
+msgid "Force SSL version 2"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:130
+msgid "None (not recommended)"
+msgstr ""
+
+#: pages/meta-box-sms-messages.php:134
+msgid "Choose the highest level of connection security your server supports."
+msgstr ""
+
+#: pages/no-responders-available.php:3
+msgid ""
+"You have no team members. Before you can activate an alert, you must invite "
+"at least one other user to join one of %1$syour response teams%2$s and they "
+"must accept your invitation."
+msgstr "Usted no posee miembros en su equipo. Antes de activar una alerta, usted debe invitar al menos a otro usuario para unirse a uno de %1$s sus equipos de respuesta %2$s y su invitación debe ser aceptada."
+
+#: pages/no-responders-available.php:8
+msgid "Click here to choose members for your response teams."
+msgstr "Haga click aquí para elegir miembros para su equipo de respuesta."
+
+#: pages/no-responders-available.php:10
+msgid "Choose team members"
+msgstr "Elegir miembros del equipo"
+
+#: pages/options.php:5
+msgid "Configure site-wide Buoy options"
+msgstr "Configurar opciones de Buoy para todo el sitio"
+
+#: pages/options.php:15
+msgid ""
+"Provide relevant safety information. This can include hotline phone numbers,"
+" links to nearby shelters or other support resources, and any other "
+"information you believe would be useful. When finished, press %1$sSave "
+"Changes%2$s at the bottom of this page."
+msgstr "Provea información de seguridad relevante. Puede incluir líneas de acceso directo, enlaces a refugios cercanos u otro tipo de recursos de apoyo, y/o cualquier otra información que usted considere útil. Cuando finalice, seleccione %1$s Guardar Cambios %2$s  al final de esta página."
+
+#: pages/options.php:33
+msgid "Enable timed alerts/safe calls"
+msgstr "Habilitar alertas/llamadas de seguridad programadas"
+
+#: pages/options.php:43
+msgid ""
+"When checked, users will be able to schedule alerts to be sent some time in "
+"the future. This is sometimes known as a \"safe call,\" a way of alerting a "
+"response team to a potentially dangerous situation if the alerter is "
+"unreachable."
+msgstr "Cuando estén chequeados, los usuarios podrán programar alertas para ser enviadas en cualquier oportunidad futura. Esto a veces es conocido como \"llamada de seguridad\", una manera de alertar a un equipo de respuesta acerca de una posible situación de peligro en caso que el altertante no pueda ser localizado. "
+
+#: pages/options.php:49
+msgid "Alert time to live"
+msgstr "Tiempo de alerta para vivir"
+
+#: pages/options.php:63
+msgid "days"
+msgstr "días"
+
+#: pages/options.php:64
+msgid "hours"
+msgstr "horas"
+
+#: pages/options.php:65
+msgid "weeks"
+msgstr "semanas"
+
+#: pages/options.php:67
+msgid ""
+"Choose how long alerts are kept active. Alerts that were created before this"
+" threshold will be automatically deleted."
+msgstr "Seleccione cuántas alertas estarán activas. Las alertas creadas antes de este momento serán automáticamente eliminadas."
+
+#: pages/options.php:72
+msgid "Delete attached incident media when deleting old alerts?"
+msgstr "¿Desea eliminar multimedia de incidente adjunto cuando borre viejas alertas?"
+
+#: pages/options.php:81
+msgid ""
+"When checked, any media (images, audio recordings, videos) attached to a "
+"Buoy Alert will be deleted along with the Alert itself when it expires."
+msgstr "Cuando estén chequeados, cualquier archivo multimedia (imágenes, notas de voz, videos) adjunto a una alerta de Buoy será eliminado junto con la alerta misma cuando expire."
+
+#: pages/options.php:87
+msgid "Integration options"
+msgstr "Opciones de integración"
+
+#: pages/options.php:93
+msgid "Default chat system provider"
+msgstr "Proveedor de sistema de chat predeterminado"
+
+#: pages/options.php:101
+msgid "Built-in (WordPress commenting system)"
+msgstr "Built-in (sistema de observaciones WordPress)"
+
+#: pages/options.php:102
+msgid "Tlk.io"
+msgstr "Tlk.io"
+
+#: pages/options.php:105
+msgid ""
+"Choose a default chat system. The built-in WordPress commenting system "
+"ensures chat room data never leaves your Buoy. The other options embed "
+"external services into your alert. Only use an external service if you trust"
+" its operators. Learn more about %1$sBuoy chat system options%2$s."
+msgstr "Elija un sistema de chat predeterminado. El built-in del sistema de observaciones WordPress se asegurará que la información del chat room nunca abandone tu Buoy. Las otras opciones incorporan servicios externos en su alerta. Sólo utilice un servicio externo si confía en sus operadores. Infórmese más acerca de %1$s las opciones del sistema de chat de Buoy %2$s."
+
+#: pages/options.php:113
+msgid "Plugin extras"
+msgstr "Extras de plugin"
+
+#: pages/options.php:114
+msgid "Additional options to customize plugin behavior."
+msgstr "Opciones adicionales para personalizar el comportamiento plugin"
+
+#: pages/options.php:119
+msgid "Enable detailed debugging information?"
+msgstr "¿Habilitar información detallada de depuración?"
+
+#: pages/options.php:131
+msgid ""
+"Turn this on only if you are experiencing problems using this plugin, or if "
+"you were told to do so by someone helping you fix a problem (or if you "
+"really know what you are doing). When enabled, extremely detailed technical "
+"information is displayed as a WordPress admin notice when you take certain "
+"actions. If you have also enabled WordPress's built-in debugging (%1$s) and "
+"debug log (%2$s) feature, additional information will be sent to a log file "
+"(%3$s). This file may contain sensitive information, so turn this off and "
+"erase the debug log file when you have resolved the issue."
+msgstr "Habilite esto sólo si está experimentando problemas usando este plugin, o si alguien ayudándolo a arreglar el problema le instruyó hacerlo (o realmente sabe lo que está haciendo). Una vez habilitado, información técnica y extremadamente detallada será exhibida como una notificación de WordPress cuando realice ciertas operaciones. Si también habilitó la depuración de WordPress's built-in (%1$s) y la aplicación para depurar registros (%2$s), información adicional será enviada a un archivo de registros (%3$s).  Este archivo puede llegar a contener información sensible, por lo que desactive y elimine el archivo para depurar registros cuando haya resuelto el inconveniente."
+
+#: pages/profile.php:1
+msgid "Buoy Preferences"
+msgstr "Preferencias de Buoy"
+
+#: pages/profile.php:7
+msgid "Gender pronoun (possessive)"
+msgstr "Pronombre de género (posesivo)"
+
+#: pages/profile.php:16
+msgid ""
+"Your gender pronoun is a word you use to refer to yourself. The possessive "
+"construction of this word could be \"her,\" \"his,\" or \"their,\" for "
+"example. Leave this blank to use a gender-neutral default."
+msgstr "Su pronombre de género es una palabra que Usted usa para referirse a usted mismo. La construcción posesiva de esta palabra puede ser, por ejemplo, \"de ella\", \"de él\" o \"de ellos\". Deje esto en blanco para usar un pronombre predeterminado que sea de género neutral."
+
+#: pages/profile.php:22
+msgid "Phone number"
+msgstr "Número de teléfono"
+
+#: pages/profile.php:32
+msgid "Optional, but will enable you to receive SMS/txt messages of alerts."
+msgstr "Opcional, pero le permitirá recibir SMS/mensajes de texto de alertas."
+
+#: pages/profile.php:38
+msgid "Phone company"
+msgstr "Número de la compañía"
+
+#: pages/profile.php:47
+msgid "You must also enter a phone company for SMS/txt messages to work."
+msgstr "Usted también debe ingresar un número de teléfono de su compañía para SMS/mensajes de texto al trabajo."
+
+#: pages/profile.php:64
+msgid ""
+"Your crisis message is the call for help you send to your emergency team "
+"members. Make this short enough to fit inside a txt message!"
+msgstr "Su mensaje de crisis es la llamada de auxilio que Usted envía a sus miembros de su equipo de emergencia. Haga esto lo suficientemente corto para que pueda entrar en un mensaje de texto."
+
+#: pages/profile.php:71
+msgid "Crisis response"
+msgstr "Respuesta a Crisis"
+
+#: pages/profile.php:81
+msgid "List me publicly as an available crisis responder"
+msgstr "Agrégueme públicamente como un respondedor de crisis disponible."
+
+#: pages/profile.php:84
+msgid ""
+"Checking this box will add you to a directory of available crisis response "
+"team members on this Buoy. Leave this unchecked unless you are willing to "
+"advertise your presence here."
+msgstr "Seleccionar esta casilla lo agregará al directorio de miembros de equipos de respuesta a crisis disponibles en este Buoy. No seleccione la casilla a menos de que esté dispuesto a anunciar su presencia aquí."
+
+#: pages/review-alert.php:21
+msgid "Loading&hellip;."
+msgstr ""
+
+#: pages/review-alert.php:33
+msgid "%1$s sent an alert %2$s"
+msgstr "%1$s envió una alerta %2$s"
+
+#: pages/review-alert.php:35
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "%s hace"
+
+#: pages/review-alert.php:53
+msgid "Respond"
+msgstr "Responder"
+
+#: templates/comments-chat-room.php:16
+msgid "Buoy chat: %s"
+msgstr "Chat de Buoy: %s"
+
+#: templates/comments-chat-room.php:32
+msgid "View new messages."
+msgstr "Ver nuevos mensajes"
+
+#: templates/comments-chat-room.php:36
+msgid "Reconnecting&hellip;. (%1$sClick here to reconnect manually%2$s)."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Buoy (a Better Angels crisis response system)"
+msgstr "Buoy (un sistema de respuesta a crisis de Better Angels)"
+
+#. Plugin URI of the plugin/theme
+msgid "https://betterangels.github.io/buoy/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A community-based crisis response system. <strong>Like this plugin? Please "
+"<a href=\"https://www.paypal.com/cgi-"
+"bin/webscr?cmd=_donations&amp;business=TJLPJYXHSRBEE&amp;lc=US&amp;item_name=Better%20Angels&amp;item_number"
+"=better-"
+"angels&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted\""
+" title=\"Send a donation to the developer of Better Angels "
+"Buoy\">donate</a>. &hearts; Thank you!</strong>"
+msgstr "Un sistema de respuesta a crisis basado en la comunidad. <strong> ¿Le gusta este plugin? Por favor <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=TJLPJYXHSRBEE&amp;lc=US&amp;item_name=Better%20Angels&amp;item_number=better-angels&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted\" title=\"Send a donation to the developer of Better Angels Buoy\">done</a>. &hearts; ¡Muchas gracias!</strong>"
+
+#. Author of the plugin/theme
+msgid "Better Angels <BetterAngels@RiseUp.net>"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://betterangels.github.io/"
+msgstr ""

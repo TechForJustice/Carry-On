@@ -1,0 +1,138 @@
+.wp-admin .modal { top: 40px; }
+#wpbody { background: #fff; }
+
+#activate-alert-form { height: 100%; }
+
+.dropdown-menu {
+    z-index: 2000; /* position above Leaflet map controls */
+}
+
+.dashboard_page_buoy_chat #wpwrap,
+.dashboard_page_buoy_chat #wpbody { height: 100%; }
+
+.dashboard_page_buoy_activate_alert #wpbody-content {
+    height: calc(100vh - 32px); /* 32px is the height of WP's admin toolbar */
+    padding-bottom: 32px;
+}
+
+.dashboard_page_buoy_chat #wpcontent {
+    padding: 0;
+}
+.dashboard_page_buoy_chat #wpbody-content {
+    height: 100%;
+    padding-bottom: 0;
+}
+
+.dashboard_page_buoy_activate_alert #contextual-alert-button,
+.dashboard_page_buoy_activate_alert #timed-alert-button,
+.dashboard_page_buoy_activate_alert #immediate-alert-button {
+    background: #d43f3a;
+    margin: 10px 0;
+}
+.dashboard_page_buoy_activate_alert #immediate-alert-button {
+    width: calc(100% - 10px);
+}
+.dashboard_page_buoy_activate_alert.js #modal-features {
+    display: flex;
+    height: 25%;
+    margin-right: 10px;
+}
+.dashboard_page_buoy_activate_alert #modal-features button {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.dashboard_page_buoy_activate_alert #modal-features button:first-child {
+    margin-left: 0;
+}
+.dashboard_page_buoy_activate_alert #modal-features img {
+    width: 40px; /* width of smallest img, they're SVG, so this is ok */
+}
+.dashboard_page_buoy_activate_alert #immediate-alert-button {
+    height: 75%;
+}
+.dashboard_page_buoy_activate_alert #immediate-alert-button img,
+.dashboard_page_buoy_activate_alert #contextual-alert-button img,
+.dashboard_page_buoy_activate_alert #timed-alert-button img {
+    height: 100%;
+    max-height: calc(100% - 32px);
+    max-width: 100%;
+}
+.dashboard_page_buoy_activate_alert #crisis-message {
+    width: 100%;
+}
+.dashboard_page_buoy_activate_alert .btn-success {
+    width: 100%;
+}
+#submitting-alert-modal .modal-body {
+    text-align: center;
+}
+#submitting-alert-modal .modal-body .pulse-loader {
+    margin: 20px 0;
+}
+
+.dashboard_page_buoy_chat #alert-tools {
+    margin-bottom: 0;
+    border-top-width: 0;
+}
+.dashboard_page_buoy_chat #buoy-map-container,
+.dashboard_page_buoy_review_alert #buoy-map-container {
+    height: 250px;
+}
+.dashboard_page_buoy_chat #buoy-map-container {
+     display: none;
+}
+.dashboard_page_buoy_chat #buoy-map,
+.dashboard_page_buoy_review_alert #buoy-map {
+    height: 100%;
+}
+
+#wpadminbar #wp-admin-bar-buoy-alerts-menu {
+    background: red;
+}
+.admin-color-sunrise #wpadminbar #wp-admin-bar-buoy-alerts-menu {
+    background: #096484;
+}
+#wp-toolbar > ul > li#wp-admin-bar-buoy-alerts-menu {
+    display: list-item; /* always show, even on narrow screens */
+}
+
+#incident-media-group .dropdown-menu {
+    padding: 1em;
+    min-width: 600px;
+}
+@media screen and (max-width: 767px) {
+    #incident-media-group .dropdown-menu {
+        left: -92px;
+        width: 100vw;
+        min-width: initial;
+    }
+}
+
+#alert-chat-room-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 65px); /* 65px is the height of the #alert-tools bar */
+    background: url('../img/spinner-2x.gif') no-repeat center top;
+}
+
+/**
+ * Styles for the built-in comments-as-chat-room.
+ *
+ * @group post_comments
+ */
+#comments-chat {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#wpfooter { display: none; }
+
+/**
+ * Styles for the Tlk.io chat integration.
+ *
+ * @group tlkio_chat
+ */
+#tlkio {
+    height: 100%;
+}

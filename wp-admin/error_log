@@ -1,0 +1,27 @@
+[16-Mar-2017 19:27:24 UTC] PHP Fatal error:  Cannot redeclare class WP_Buoy_Plugin in /home1/havengoer/public_html/mst/wp-content/plugins/buoy/buoy.php on line 47
+[16-Mar-2017 19:27:27 UTC] PHP Fatal error:  Cannot redeclare class WP_Buoy_Plugin in /home1/havengoer/public_html/mst/wp-content/plugins/buoy/buoy.php on line 47
+[16-Mar-2017 19:27:27 UTC] PHP Fatal error:  Cannot redeclare class WP_Buoy_Plugin in /home1/havengoer/public_html/mst/wp-content/plugins/buoy/buoy.php on line 47
+[16-Mar-2017 21:49:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/havengoer/public_html/mst/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[17-Mar-2017 05:29:11 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 05:29:11 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 05:29:11 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 63
+[17-Mar-2017 08:22:11 UTC] Error installing system cronjob for timed alerts.
+Failed to install crontab for havengoer
+[17-Mar-2017 08:42:51 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 08:42:51 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 08:42:51 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 63
+[17-Mar-2017 08:49:16 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 08:49:16 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 08:49:16 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 63
+[17-Mar-2017 09:25:03 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 09:25:03 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 09:25:03 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 63
+[17-Mar-2017 09:48:38 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 09:48:38 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 09:48:38 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 63
+[17-Mar-2017 11:29:40 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 11:29:40 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 11:29:40 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 63
+[17-Mar-2017 11:36:38 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 11:36:38 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 62
+[17-Mar-2017 11:36:38 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, boolean given in /home1/havengoer/public_html/mst/wp-content/plugins/betterangels-buoy-a096b85/includes/class-buoy-team.php on line 63

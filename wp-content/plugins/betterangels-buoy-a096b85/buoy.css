@@ -1,0 +1,18 @@
+#wpadminbar #wp-admin-bar-buoy-alerts-menu {
+    background: red;
+}
+.admin-color-sunrise #wpadminbar #wp-admin-bar-buoy-alerts-menu {
+    background: #096484;
+}
+#wp-toolbar > ul > li#wp-admin-bar-buoy-alerts-menu {
+    display: list-item; /* always show, even on narrow screens */
+}
+#wpadminbar #wp-admin-bar-buoy-alerts-menu .ab-icon::before {
+    content: "\f488";
+    top: 4px;
+}
+@media screen and (max-width: 728px) {
+    #wpadminbar #wp-admin-bar-buoy-alerts-menu {
+        position: static;
+    }
+}
